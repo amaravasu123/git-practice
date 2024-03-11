@@ -1,1 +1,8 @@
-chek git configuratiom--- giot config -l
+chek git configuratiom--- git config -l
+How to setup your Gitusername:---git config --global user.name "zahid”
+How to setup your Git useremail:---git config --global user.email "zahidgul107@gmail.com"
+How to add a file to thestaging area in Git:---git add filename_here
+How to add all files in the staging area in Git:---git add .
+
+
+
