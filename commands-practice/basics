@@ -13,11 +13,6 @@ git diff all_checks.py
 (specific file)
 git diff --staged(shows only unstaged changes)
 How to remove tracked files from the current working tree in Git:---git rm filename config -l
-How to rename files in Git:---git mv oldfile newfile
-How to revert unstaged changes in Git:---git checkout filename
-How to revert staged changes in Git:--- git reset HEAD filename
-How to amend the most recent commit in Git:---git commit --amend
-
 
 
 
