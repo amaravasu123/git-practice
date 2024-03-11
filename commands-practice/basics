@@ -3,6 +3,16 @@ How to setup your Gitusername:---git config --global user.name "zahid”
 How to setup your Git useremail:---git config --global user.email "zahidgul107@gmail.com"
 How to add a file to thestaging area in Git:---git add filename_here
 How to add all files in the staging area in Git:---git add .
+How to commit changes (andskip the staging area) in Git:---git commit -a -m"your commit message here"
+How to see your commit history in Git:---git log && git reflog (for private repo)
+How to see your commit history including changes in Git:---git log -p git log --stat
+How to see a specific commit in Git:---git show commit-id
+How to see changes made before committing them
+using "diff" in Git:---git diff (shows only unstaged changes)
+git diff all_checks.py
+(specific file)
+git diff --staged(shows only unstaged changes)
+How to remove tracked files from the current working tree in Git:---git rm filename config -l
 
 
 
